@@ -12,7 +12,7 @@
 		</div>
 		<div id="form-box">
 			<button id="newBook">NEW BOOK</button>
-			<form id="form" hidden>
+			<form id="addForm" hidden>
 				<input id="title-input" type="text" placeholder="Title" />
 				<input id="author-input" type="text" placeholder="Author" />
 				<input id="pages-input" type="number" placeholder="Pages" />
@@ -20,17 +20,7 @@
 			</form>
 			<button id="submit" hidden>Add to Library</button>
 		</div>
-		<table class="books">
-			<thead>
-				<tr>
-					<td>title</td>
-					<td>author</td>
-					<td>pages</td>
-					<td>read</td>
-				</tr>
-			</thead>
-			<tbody class="book-list"></tbody>
-		</table>
+		<table class="books"></table>
 
 		<script src="./script.js" defer></script>
 	</body>
